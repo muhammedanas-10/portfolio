@@ -1,224 +1,243 @@
 *{
     margin: 0%;
     padding: 0%;
-    box-sizing: border-box;
-    font-family: "Playfair Display", serif;
+    font-family: "Crimson Text", serif;
+    
+  
 }
+
 
 nav{
     background-color: transparent;
     height: 50px;
     display: flex;
     justify-content: center;
-    padding: 10px;
+    padding: 10px 10px;
     position: sticky;
     top: 0;
     z-index: 1;
-    color: brown;
-    font-weight: bolder;
-   
+    color: #071952;
+    font-weight:30%;
+}
+nav ul li{
+    display:inline-block;
+    list-style: none;
+    margin: 10px 20px;
    
 }
-
-nav ul {
-    display: flex;
-   
-}
-
 nav ul li a{
-    margin: 10px;
-    color: brown;
-   text-decoration: none;
-font-size: 20px;
-justify-content:space-between;
-padding: 5px;
-   
-
+    text-decoration: none;
+    color: #3572EF;
+    font-weight:bolder;
+    font-size: larger;
+    display: flex;
+    position: sticky;
+    
+    
 }
-
 nav ul li a:hover{
-    text-shadow: 2px 4px 6px black;
+    color: red;
 }
-#a {
-    color:brown;
-   margin-left: 5px;
-   display: flex;
-   justify-content: space-between;
-   text-shadow: 2px 4px 6px black;
-    color: blue;
-   
-}
-#b{
-    display: flex;
-    justify-content: space-between;
-    
-}
-#c{
-    display: flex;
-    justify-content: space-between;
-    
-}
-#d{
-    display: flex;
-    justify-content: space-between;
-    
-}
-#e{
-    display: flex;
-    justify-content: space-between;
-    
-}
+.detel{
+   margin-left: 1%;
+    margin-top: 20%;
+    mix-blend-mode: normal;
 
-video{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
 }
-
-.overlay{
-    position: absolute;
-    top: 50%;
-    left: 70%;
-    color: aliceblue;
+.detel p{
+    color: antiquewhite;
+    font-size: larger;
+    font-weight: bold;
 }
-h1:hover{
-    text-shadow: 2px 4px 6px rgb(163, 10, 10);
-    text-decoration: underline;
+.detel h1{
+    font-size: 50px;
+    color: #3572EF ;
+    margin-bottom: 20px;
 }
 span{
-    color: blueviolet;
-    font-weight: bolder;
+    color: white;
 }
-#home{
-    height: 800px;
-   display: flex;
-   flex-direction: column;
+.detel a{
+    color:#3572EF;
+    background-color: orange;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
 }
-#home::before{
-    content:"" ;
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwKjT1uX5faJxvElPMCwHKsRKZmz9-cLwESQ&s);
-    height: 100%;
+.hero{
+    background-image: url(/images/wallpaperflare.com_wallpaper.jpg);
+    height: 750px;
     background-size: cover;
 }
-.main{
-    display: flex;
-    position: absolute;
-    border: 2px inset blueviolet;
-    padding: 30px;
-    top: 75%;
-    left: 40%;
-    box-shadow: 2px 4px 6px white ;
+#personal{
+    background-color:#402E7A;
 }
-main:hover{
-    scale: 1.03;
-
-}
-.pic{
-    display: flex;
-
-}
-.pic img{
-    width: 400px;
-
-}
-#A{
-    width: 50%;
-    height: 100%;
-}
-.pic h4{
-    color: brown;
-    text-align: center;
-    font-size: 30px;
-    font-style: italic;
-}
-.pic p{
-    text-align: justify;
-    margin: 10px;
-
-}
-
-h3{
-    text-align: center;
-    color: darkblue;
-    margin-top: 5px;
-    background-color: aquamarine;
-}
-.gallery{
-    border: 3px ridge blueviolet;
-}
-.gallery img{
-    width: 450px;
-    height: 200px;
-    margin: 5px;
+.info img{
+    width: 600px;
     padding: 10px;
-    margin-left: 25px;
-    cursor: pointer;
 }
-.gallery img:hover{
+.info h2{
+    color: white;
+    font-size: 50px;
+    padding: 10px 20px;
+    margin-right: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #4C3BCF ;
+  width: fit-content;
+}
+.info p{
+    background-color: #4B70F5;
+    width: fit-content;
+    padding: 20px;
+    font-size: medium;
+}
+.gif img{
+    display: flex;
+    float: right;
+    margin-top: -500px;
+    width: 800px;
+}
+.laliga img{
+    float: right;
+}
+.messi h3{
+    color: black;
+    font-size: 40px;
+}
+.messi p{
+    color: white;
+    font-size: medium;
+}
+#miami{
+    background-color: palevioletred;
+    width: fit-content;
+    display: flex;
+    margin-left: 240px;
+    margin-top: 150px;
+    border-style: outset;
+    border-width: 15px;
+    border-color: black;
+
+    
+}
+#arg img{
+    width: 1000px;
+    float:right;
+    padding:10% 0;
+}
+.national h4{
+    color: black;
+    background-color: pink;
+    padding-left: 15px;
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+.national h5{
+    color:#E2BBE9;
+    background-color:#7776B3 ;
+    font-size: 50px;
+    margin-left: 50px;
+}
+.national{
+    width: fit-content;
+    padding-top: 27%;
+}
+.national p{
+    font-size: large;
+    border: 2px;
+    background-color:#9B86BD;
+    width: fit-content;
+   
+}
+.best h6{
+    color: white;
+    background-color: palevioletred;
+    font-size: 60px;
+    width: fit-content;
+    float: right;
+   margin-top: -500px;
+}
+.best a{
+    text-decoration: none;
+    font-size: 60px;
+    color: palevioletred;
+    background-color: #2F3645;
+    width: fit-content;
+    float: right;
+    margin-top: -400px;
+}
+.best{
+margin-top: -100px;
+}
+.best img{
+    width: 230px;
+    float: right;
+    margin-top: -300px;
+  
+}
+.boot img{
+    width: 250px;
+    margin-left: 900px;
+    margin-top: -300px;
+    
+}
+.dor img{
+    margin-top: -50px;
+}
+.dor img:hover{
     scale: 1.05;
     box-shadow: 2px 4px 6px blueviolet;
 }
-.row{
-    background-color: grey;
-    display: flex;
-    margin-top: 5px;
+.boot img{
+    scale: 1.05;
+    box-shadow: 2px 4px 6px blueviolet;
 }
-.box{
-    width: 400px;
-    margin: 5px;
-   border: 2px inset blueviolet;
-    height: 450px;
-    background: linear-gradient(to top, rgb(211, 216, 220)50%, rgb(79, 216, 226)50%);
-    background-size: 100% 200%;
-    transition: all 0.06s;
-
-.box:hover{
-    background-position: right bottom;
+.footer img{
+    width: 1470px;
 }
-
+.pink img{
+    width: 1470px ;
+    height: 300px;
+    padding: 0%;
+    margin: 0%;
 }
-.box img{
-    width: 100%;
-    border-radius: 20%;
-}
-.box h5{
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 20px;
-    color: brown;
-}
-.box p{
-    text-align: justify;
-    font-style: italic;
-    padding: 10px;
-
-}
-
-form{
-    width: 500px;
-    margin-left: 500px;
-}
-.input{
-    width: 100%;
-    margin: 10px;
-}
-button{
-    color: antiquewhite;
-    background-color: black;
-    padding: 5px;
-    cursor: pointer;
-}
-.cv{
-    background-color: blueviolet;
-    color: antiquewhite;
-    padding: 4px;
-    margin: 12px;
+.caption a {
     text-decoration: none;
-    border-radius: 10%;
-    margin-left: 60%;
+    font-size: 40px;
+    font-family: "Rajdhani", sans-serif;
+    background-color:black;
+    color: white;
+    float: right;
+  margin-top: 50px;
+  padding-right:50px;
+  
+  
 }
-/* scroll bar kondu varaan w3 school site po copy paste cheytha mathi */
-/* width */
+.caption img{
+    color: black;
+    background-color: violet;
+    width: 300px;
+}
+.sign a{
+   padding-left: 800px;
+   position: relative;
+   top: -275px;
+   text-decoration: none;
+   font-size:40px;
+   margin-left: 300px;
+   background-color: antiquewhite;
+   color: violet;
+   width: fit-content;
+}
+.sign img{
+   float: right;
+    color: transparent;
+    margin-top: -200px;
+    
+}
 ::-webkit-scrollbar {
     width: 10px;
   }

@@ -1,0 +1,241 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Playfair Display", serif;
+}
+
+nav{
+    background-color: transparent;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    color: brown;
+    font-weight: bolder;
+   
+   
+}
+
+nav ul {
+    display: flex;
+   
+}
+
+nav ul li a{
+    margin: 10px;
+    color: brown;
+   text-decoration: none;
+font-size: 20px;
+justify-content:space-between;
+padding: 5px;
+   
+
+}
+
+nav ul li a:hover{
+    text-shadow: 2px 4px 6px black;
+}
+#a {
+    color:brown;
+   margin-left: 5px;
+   display: flex;
+   justify-content: space-between;
+   text-shadow: 2px 4px 6px black;
+    color: blue;
+   
+}
+#b{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#c{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#d{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#e{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+video{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    color: aliceblue;
+}
+h1:hover{
+    text-shadow: 2px 4px 6px rgb(163, 10, 10);
+    text-decoration: underline;
+}
+span{
+    color: blueviolet;
+    font-weight: bolder;
+}
+#home{
+    height: 800px;
+   display: flex;
+   flex-direction: column;
+}
+#home::before{
+    content:"" ;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwKjT1uX5faJxvElPMCwHKsRKZmz9-cLwESQ&s);
+    height: 100%;
+    background-size: cover;
+}
+.main{
+    display: flex;
+    position: absolute;
+    border: 2px inset blueviolet;
+    padding: 30px;
+    top: 75%;
+    left: 40%;
+    box-shadow: 2px 4px 6px white ;
+}
+main:hover{
+    scale: 1.03;
+
+}
+.pic{
+    display: flex;
+
+}
+.pic img{
+    width: 400px;
+
+}
+#A{
+    width: 50%;
+    height: 100%;
+}
+.pic h4{
+    color: brown;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+.pic p{
+    text-align: justify;
+    margin: 10px;
+
+}
+
+h3{
+    text-align: center;
+    color: darkblue;
+    margin-top: 5px;
+    background-color: aquamarine;
+}
+.gallery{
+    border: 3px ridge blueviolet;
+}
+.gallery img{
+    width: 450px;
+    height: 200px;
+    margin: 5px;
+    padding: 10px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+.gallery img:hover{
+    scale: 1.05;
+    box-shadow: 2px 4px 6px blueviolet;
+}
+.row{
+    background-color: grey;
+    display: flex;
+    margin-top: 5px;
+}
+.box{
+    width: 400px;
+    margin: 5px;
+   border: 2px inset blueviolet;
+    height: 450px;
+    background: linear-gradient(to top, rgb(211, 216, 220)50%, rgb(79, 216, 226)50%);
+    background-size: 100% 200%;
+    transition: all 0.06s;
+
+.box:hover{
+    background-position: right bottom;
+}
+
+}
+.box img{
+    width: 100%;
+    border-radius: 20%;
+}
+.box h5{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: brown;
+}
+.box p{
+    text-align: justify;
+    font-style: italic;
+    padding: 10px;
+
+}
+
+form{
+    width: 500px;
+    margin-left: 500px;
+}
+.input{
+    width: 100%;
+    margin: 10px;
+}
+button{
+    color: antiquewhite;
+    background-color: black;
+    padding: 5px;
+    cursor: pointer;
+}
+.cv{
+    background-color: blueviolet;
+    color: antiquewhite;
+    padding: 4px;
+    margin: 12px;
+    text-decoration: none;
+    border-radius: 10%;
+    margin-left: 60%;
+}
+/* scroll bar kondu varaan w3 school site po copy paste cheytha mathi */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: red; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
